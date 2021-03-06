@@ -503,7 +503,8 @@ const MOVIES=[{
 
 
 // create a database to search movies by title, genre, director, year
-
+// fetch movie list then map through movies then select random movie
+// create div and "show appened" then r/t div 
 let container = document.getElementById("movie-list-container")
 let movieDivs = MOVIES.map(function(movie){
 
